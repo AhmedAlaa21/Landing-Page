@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Landing Page</title>
+    <script
+      src="https://kit.fontawesome.com/c38660110e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="left-nav" id="navbar">
+      <div class="logo"><img src="me.jpg" alt="Logo" /></div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact Me</a></li>
+      </ul>
+    </nav>
+    <header>
+      <button class="toggle" id="toggle">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
+      <h1>My Landing Page</h1>
+      <h5>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+        doloribus voluptas accusantium inventore maxime
+      </h5>
+
+      <button class="signup" id="openModal">Sign Up</button>
+    </header>
+    <section class="aboutLandingPage">
+      <h2>What is this landing page about?</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia iure
+        accusamus ab consectetur eos provident ipsa est perferendis architecto.
+        Provident, quaerat asperiores. Quo esse minus repellat sapiente, impedit
+        obcaecati necessitatibus.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente optio
+        officia ipsa. Cum dignissimos possimus et non provident facilis saepe!
+      </p>
+
+      <h2>Tell Me More</h2>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat eaque
+        delectus explicabo qui reprehenderit? Aspernatur ad similique minima
+        accusamus maiores accusantium libero autem iusto reiciendis ullam
+        impedit esse quibusdam, deleniti laudantium rerum beatae, deserunt nemo
+        neque, obcaecati exercitationem sit. Earum.
+      </p>
+
+      <h2>Benefits</h2>
+      <ul>
+        <li>Lifetime Access</li>
+        <li>30 Day Money Back</li>
+        <li>Tailored Customer Support</li>
+      </ul>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quam
+        nostrum, fugiat, itaque natus officia laborum dolorum id accusantium
+        culpa architecto tenetur fuga? Consequatur provident rerum eius ratione
+        dolor officiis doloremque minima optio dignissimos doloribus odio
+        debitis vero cumque itaque excepturi a neque, expedita nulla earum
+        accusamus repellat adipisci veritatis quam. Ipsum fugiat iusto pariatur
+        consectetur quas libero dolor dolores dolorem, nostrum ducimus
+        doloremque placeat accusamus iste, culpa quaerat consequatur?
+      </p>
+    </section>
+
+    <!--Modal-->
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <div class="modal-header">
+          <h3>Sign up</h3>
+          <div class="fa fa-times fa-2x" id="closeModal"></div>
+        </div>
+        <div style="padding: 10px">
+          <span>Register with us to get offers, support and more</span>
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter Name" />
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter Email" />
+            <label for="password">Password</label>
+            <input type="text" id="password" placeholder="Enter Password" />
+            <label for="confirm-password">Confirm Password</label>
+            <input
+              type="text"
+              id="confirm-password"
+              placeholder="Confirm Password"
+            />
+            <input type="submit" value="submit" class="submit" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
